@@ -17,6 +17,7 @@ services:
     env_file: .env.genesis
     volumes:
       - ./data:/app/.data
+    command: start
     restart: unless-stopped
 
   nginx:
