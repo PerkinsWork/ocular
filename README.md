@@ -34,6 +34,19 @@
 
 Head over to [the documentation](https://simonwep.github.io/ocular) to get started 🚀
 
+### Run locally with Docker
+
+This repository ships with a basic `docker-compose.yml` that builds the frontend,
+starts the backend and exposes everything on port `3030` through a small nginx
+proxy. Simply run:
+
+```sh
+docker compose up -d
+```
+
+After the build has finished Ocular should be reachable under
+`http://localhost:3030`.
+
 ### You want to contribute?
 
 That's awesome! Check out the [contribution guidelines](./.github/CONTRIBUTING.md) to get started :)
